@@ -44,9 +44,9 @@ void Popup::show( int xPos, int yPos )
 {
     // Notify that we are the active popup menu, so that the window which
     // receives our menu events knows whom to forward them
-    m_rWindowManager.setActivePopup( *this );
+  //  m_rWindowManager.setActivePopup( *this );
 
-    m_pOsPopup->show( xPos, yPos );
+  //  m_pOsPopup->show( xPos, yPos );
 }
 
 

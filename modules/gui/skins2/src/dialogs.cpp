@@ -332,8 +332,8 @@ void Dialogs::showPopupMenu( bool bShow, int popupType = INTF_DIALOG_POPUPMENU )
 {
     if( m_pProvider && m_pProvider->pf_show_dialog )
     {
-        m_pProvider->pf_show_dialog( m_pProvider, popupType,
-                                     (int)bShow, NULL );
+      //  m_pProvider->pf_show_dialog( m_pProvider, popupType,
+      //                               (int)bShow, NULL );
     }
 }
 
